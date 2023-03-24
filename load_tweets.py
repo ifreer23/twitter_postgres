@@ -105,6 +105,8 @@ def insert_tweet(connection,tweet):
     # this ensures that a tweet does not get "partially" loaded
     # with connection.begin() as trans:
 
+    if True:
+
         ########################################
         # insert into the users table
         ########################################
